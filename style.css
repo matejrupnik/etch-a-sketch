@@ -1,5 +1,11 @@
+body {
+    margin: 0;
+}
+
 #container {
-    height: 100vh;
+    margin:auto;
+    max-width: 90vh;
+    max-height: 90vh;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
 }
@@ -7,4 +13,8 @@
 .div {
     background-color: red;  
     aspect-ratio: 1; 
+}
+
+.hover {
+    background-color: blue;
 }
