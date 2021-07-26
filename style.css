@@ -1,0 +1,10 @@
+#container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.div {
+    background-color: red;  
+    aspect-ratio: 1; 
+}
